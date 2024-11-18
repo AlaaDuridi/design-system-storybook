@@ -1,0 +1,59 @@
+.button {
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Sizes */
+.small {
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+.medium {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.large {
+    padding: 12px 24px;
+    font-size: 16px;
+}
+
+/* Variants */
+.primary {
+    background-color: var(--color);
+    border: 1px solid var(--color);
+    color: white;
+}
+
+.secondary {
+    background-color: white;
+    border: 1px solid var(--color);
+    color: var(--color);
+}
+
+.text {
+    background: none;
+    border: none;
+    color: var(--color);
+    text-decoration: none;
+}
+
+.text:hover {
+    text-decoration: underline;
+}
+
+/* Colors */
+.red {
+    --color: red;
+}
+
+.blue {
+    --color: blue;
+}
+
+.green {
+    --color: green;
+}
